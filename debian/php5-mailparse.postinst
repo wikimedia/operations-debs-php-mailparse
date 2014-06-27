@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+[ "$1" = "configure" ] && php5enmod mailparse
+
+#DEBHELPER#
+
+exit 0
