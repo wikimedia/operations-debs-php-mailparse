@@ -2,17 +2,16 @@ Source: php-mailparse
 Section: web
 Priority: optional
 Maintainer: Mukunda Modell <mmodell@wikimedia.org>
-Build-Depends: debhelper (>= 7), po-debconf, xsltproc , php5-dev  
-Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 9),
+               php5-dev (>= 5.5),
+               dh-php5,
+               pkg-php-tools
+Standards-Version: 3.9.4
 
 Package: php5-mailparse
 Architecture: any
-Depends: ${shlibs:Depends}, ${php:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${php5:Depends}, ${misc:Depends}, ${php:Depends}
 Description: mailparse module for PHP 5
- Email message manipulation
- .
  Mailparse is an extension for parsing and working with email
  messages.  It can deal with rfc822 and rfc2045 (MIME) compliant
  messages.
-
-

@@ -1,6 +1,6 @@
 php-mailparse (2.1.6-1) unstable; urgency=low
 
-  * Initial Release (Closes: #<ITP bug number>).
+  * Initial Release.
 
  -- Mukunda Modell <mmodell@wikimedia.org>  Fri, 27 Jun 2014 17:04:27 -0500
 
